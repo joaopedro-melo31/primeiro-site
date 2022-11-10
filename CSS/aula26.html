@@ -1,0 +1,32 @@
+<script type="text/javascript">
+	
+	const nome = 'João';
+	const idade = 2;
+
+	var str = 'O '+ nome+ ' possui '+ idade + ' anos';
+	console.log(str);
+
+	var str2 = `O ${nome} possui ${idade} anos`;
+	console.log(str2);
+
+	function trataIdade(strings, ...variaveis){
+		console.log(strings);
+		console.log(variaveis);
+		var idade = variaveis[1];
+		var _strings = [...strings];
+		if (idade === 1) {
+			strings[2] = " ano"
+		}
+		var result = [];
+		_strings.forEach( (str, i) => {
+			result.push(str)
+			if (variaveis[i] !== undefined ){
+				result.push(variaveis[i]);
+			}
+		} );
+		return result.join('');
+
+	}
+	var str3 = trataIdade`O ${nome} possui ${idade} anos`;
+
+</script>

@@ -1,0 +1,133 @@
+.title-class{
+	background-color: #636e98;
+	color: white;
+	padding: 8px;
+	font-family: Arial;
+}
+.div-2{
+	background-color: #353046;
+	margin-top: -12px;
+	padding: 10px;
+}
+.p-class{
+	text-align: center;
+	color: white;
+	font-family: Arial;
+}
+.h2-class{
+	text-align: center;
+	color: white;
+	font-family: Arial;
+}
+.sign{
+	background-color: #ef5c2e;
+	border: none;
+	padding: 8px;
+	color: white;
+	font-family: Arial;
+	text-decoration: none;
+}
+.button-class{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.last-block{
+	display: flex;
+	justify-content: space-between;
+}
+.imagem1, .imagem2, .imagem3, .imagem4{
+	border: outset;
+	max-width: 33.33%;
+	width: 100%;
+	text-align: center;
+}
+
+.last-image{
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+	
+}
+
+.last-image img{
+	max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+.history-primary{
+	margin: 10px;
+	padding: 10px;
+}
+.history{
+	display: flex;
+	justify-content: space-between;
+}
+.copy{
+	text-align: center;
+	font-size: 10px;
+	font-family: Arial;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.last-block{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 5px;
+	}
+	.p-class{
+		color: black;
+		font-family: fantasy;
+	}
+	.h2-class{
+		color: black;
+		font-family: fantasy;
+	}
+	.imagem1, .imagem2, .imagem3, .imagem4{
+		margin: 5px;
+		max-width: 100%;
+		width: 50%;
+		text-align: center;
+	}
+
+	.sign{
+		background-color: #8080808a;
+		border: none;
+		padding: 8px;
+		color: #000000;
+		font-family: sans-serif;
+		text-decoration: none;
+	}
+
+	.title-class{
+		background-color: #000000;
+		color: white;
+		padding: 8px;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.div-2{
+		background-color: #5c5a5a;
+		margin-top: -12px;
+		padding: 10px;
+	}
+
+	.p-class{
+		text-align: center;
+	}
+	.h2-class{
+		text-align: center;
+	}
+	.history-primary{
+		display: none;
+	}
+	.nocel{
+	display: none;
+	text-decoration: none;
+	}
+}
