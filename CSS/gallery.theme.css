@@ -1,0 +1,31 @@
+
+  /*
+      Theme controls how everything looks in Gallery CSS.
+  */
+  .gallery {
+    position: relative;
+  }
+  .gallery .item {
+    max-height: 240px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .gallery .controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+  }
+  .gallery .control-button {
+    display: inline-block;
+    margin: 10px;
+    width:10px;
+    height:10px;
+    background:rgb(243, 6, 6);
+    border-radius:100%;
+  }
+
+  .gallery .control-button:hover {
+    background:rgb(241, 234, 234);
+  }
