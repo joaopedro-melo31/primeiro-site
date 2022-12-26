@@ -7,21 +7,21 @@ html {font-size: 62.5%}
 .ibc-submenu a {text-decoration: none; color: black;}
 
 .ibc-submenu a:hover {
-	background-color: #4d1d1d;
-	color: gray;
+	background-color: #ec0c0c;
+	color: rgb(255, 255, 255);
 }
 
 .dropdown-list:hover .ibc-submenu {display: block;}
 
 .ibc-bt-primary{
 	background-color: #fff;
-	color: #000;
+	color: rgb(250, 6, 6);
 }
 
 .ibc-bt-primary:hover {
 	opacity: 0.8;
-	color: #fff;
-	background-color: #000;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 0, 0);
 }
 
 .form-group .form-control{
